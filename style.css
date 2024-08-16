@@ -1,0 +1,249 @@
+@media only screen and (max-width:375px){
+body{
+    background-image: url(mobilebackgroung.PNG) ;
+   background-repeat: no-repeat;
+   background-color:brown ;
+}
+.logo{
+    margin-left: 100px;
+    width:80px;
+    padding-top: 30px;
+}
+.ALL{
+display: grid;
+ margin:2rem;
+    
+    
+}
+
+.button{
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    width: 200px;
+    margin-inline: 3rem; 
+    
+}
+.class{
+    display: grid;
+    width: 190px;
+    height: 90px;
+    margin-left: 3rem;
+    
+}
+.ios{
+    border-radius: 4rem;
+    background-color:hsl(171,66%, 44% );
+    margin-left: 1 1/2rem;
+    cursor: pointer;
+   margin-bottom: 10px;
+    
+}
+.mac{ 
+    border-radius: 4rem;
+    background-color:hsl(233, 100%, 69%); 
+    cursor: pointer;
+
+}
+.first-picture{
+    width:270px;
+    height: 200px;
+    margin-left: 2 1/2rem;
+    padding-bottom:4rem ;
+}
+
+.second-div{
+    text-align: center;
+}
+.phone{
+    width:300px; 
+    margin-left: 2 1/2rem;
+    height: 170px;
+
+}
+.super{
+    text-align:center;
+    margin-bottom: 30px;
+}
+.roni{
+    
+    width:25px;
+    height:25px;
+    margin-left: 170px;
+}
+h4{
+    text-align:center;
+    
+}
+
+
+.stats{
+    margin-top: 50px;
+    display: grid;
+    /* grid-template-rows: 80px 80px 80px 80px 80px; */
+    width:3px;
+    height:3px;
+    grid-gap: 40px;
+    padding-left: 80px;
+}
+.major{
+    display: grid ;
+    margin-top: 450px;
+   grid-template-columns:70cqmin;
+   justify-content: center;
+}
+.other{
+    display: grid;
+    width: 190px;
+    height: 90px;
+    margin-left: 3rem;
+    padding-bottom: 5rem;
+}
+.source{
+width: 40px;
+margin-bottom: 1cm;
+padding-left: 1cm;
+}
+.inner{
+    padding-left: 1cm;
+    margin-bottom: 2cm;
+}
+.privacy{
+    padding-top: 1rem;
+    display: grid;
+    justify-content: center;
+}
+.iconics{
+    display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+footer{
+    background-color:hsl(203, 53%, 94%);
+}
+}
+
+@media only screen and (min-width:768px){
+
+
+body{
+    background-image: url(destopbackground.PNG) ;
+   background-repeat: no-repeat;
+  background-color: white;
+}
+.ALL{
+display:inline;
+text-align: center;
+}
+ .logo{
+margin-left: 550px;
+ }
+.two{
+display: grid;
+grid-template-columns:70cqmin;
+justify-content: center;
+}
+.ios{
+    border-radius: 4rem;
+    background-color:hsl(171,66%, 44% );
+    margin-left: 1 1/2rem;
+    cursor: pointer;
+    
+}
+ .mac{
+    border-radius: 4rem;
+    background-color:hsl(233, 100%, 69%); 
+    cursor: pointer;
+    box-sizing: 8px;
+}
+
+ .track{
+    display: grid;
+grid-template-columns:70cqmin;
+justify-content: center;
+ } 
+ .first-picture{
+    width: 400px;
+    height: 300px;
+ }
+
+ .second-div{
+    display:grid;
+    grid-template-columns: 500px 290px;
+
+ }
+ .move{
+    display: grid;
+    grid-template-columns:80cqmin;
+    justify-content: center;
+    margin-bottom: 3rem;
+ }
+ .phone{
+    width: 400px;
+    height: 300px;
+    margin-left: 390px;
+ }
+ .super{
+    text-align: center;
+ }
+
+ .outer-div{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    margin-left: 150px;
+ }
+ .roni{
+    width:25px;
+    height:25px;
+    margin-left: 36px;
+ }
+ .stats{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 250px 200px 200px 200px 200px; 
+    width:2rem;
+    height:2rem;
+    margin-left:100px ;
+ }
+ .major{
+   margin-top: 50px; 
+   display: grid;
+   grid-template-columns:70cqmin;
+   justify-content: center;
+ }
+ .source{
+width: 40px;
+height:40px ;
+margin-top: 40px;
+ }
+ .privacy{
+    display:flex;
+    margin-top: 100px;
+ }
+
+ .inner{
+    margin-left: 70px;
+    display:grid;
+    grid-template-columns: 100px 200px 200px   ;
+ }
+ span{
+    margin-top: 15px;
+    color:hsl(171,66%, 44% );
+     cursor:pointer;
+ }
+ footer{
+    background-color:hsl(203, 24%, 85%);
+ }
+ .iconics{
+    display: grid;
+    grid-template-columns: 40px 40px 40px;
+    padding-left: 300px;
+    margin-top: 20px;
+    cursor:pointer;
+    
+ }
+ .tweet{
+    mix-blend-mode:multiply;
+    color:aqua;
+ }
+}
